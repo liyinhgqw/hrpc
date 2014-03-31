@@ -1,6 +1,6 @@
 # HRPC
 
-This emulates the Hadoop IPC (version 2.3.0). It has removed the features of SSL to make it feasible for intra-enterprise products.
+This emulates the Hadoop IPC (version 2.2.0). It has removed the features of SSL to make it feasible for intra-enterprise products.
 
 ## Installing
 `mvn install` should done all the jobs. Include it in the pom.xml when using it.
