@@ -67,7 +67,6 @@ import com.google.protobuf.CodedOutputStream;
 import com.google.protobuf.Message;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.hadoop.ipc.StandbyException;
 import com.github.hrpc.rpc.protobuf.RpcHeaderProtos.RpcKindProto;
 import com.github.hrpc.rpc.protobuf.RpcHeaderProtos.RpcRequestHeaderProto;
 import com.github.hrpc.rpc.protobuf.RpcHeaderProtos.RpcResponseHeaderProto;

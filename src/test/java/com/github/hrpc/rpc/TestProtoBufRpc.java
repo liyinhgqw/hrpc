@@ -204,15 +204,6 @@ public class TestProtoBufRpc {
                 .setMessage("hello").build();
         EchoResponseProto echoResponse = client.echo2(null, echoRequest);
         Assert.assertEquals(echoResponse.getMessage(), "hello");
-
-        // Ensure RPC metrics are updated
-//        MetricsRecordBuilder rpcMetrics = getMetrics(server.getRpcMetrics().name());
-//        assertCounterGt("RpcQueueTimeNumOps", 0L, rpcMetrics);
-//        assertCounterGt("RpcProcessingTimeNumOps", 0L, rpcMetrics);
-//
-//        MetricsRecordBuilder rpcDetailedMetrics =
-//                getMetrics(server.getRpcDetailedMetrics().name());
-//        assertCounterGt("Echo2NumOps", 0L, rpcDetailedMetrics);
     }
 
     @Test (timeout=5000)
